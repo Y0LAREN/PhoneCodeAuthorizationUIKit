@@ -9,6 +9,8 @@ import UIKit
 
 class CodeNotArriveViewController: UIViewController {
 
+  var viewModel: CodeNotArriveViewModel?
+  
     override func viewDidLoad() {
         super.viewDidLoad()
       

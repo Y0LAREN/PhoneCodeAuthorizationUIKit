@@ -7,6 +7,12 @@
 
 import Foundation
 
-final class CodeNotArriveViewModel {
+final class CodeNotArriveViewModel: CodeNotArriveViewModelProtocol {
+  
+  var router: RouterProtocol?
+  
+  init(router: any RouterProtocol) {
+    self.router = router
+  }
   
 }

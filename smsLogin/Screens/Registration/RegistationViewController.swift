@@ -9,6 +9,8 @@ import UIKit
 
 class RegistationViewController: UIViewController {
 
+  var viewModel: RegistationViewModel?
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -21,6 +21,15 @@
 		1A0B15CB2CCD79EF007F3384 /* RegistationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15CA2CCD79EF007F3384 /* RegistationViewModel.swift */; };
 		1A0B15CD2CCD79FD007F3384 /* EntranceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15CC2CCD79FD007F3384 /* EntranceViewModel.swift */; };
 		1A0B15CF2CCD7A07007F3384 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15CE2CCD7A07007F3384 /* MainViewModel.swift */; };
+		1A0B15D62CCE09D4007F3384 /* BuilderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15D52CCE09D4007F3384 /* BuilderService.swift */; };
+		1A0B15D82CCE09E4007F3384 /* BuilderServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15D72CCE09E4007F3384 /* BuilderServiceProtocol.swift */; };
+		1A0B15DA2CCE0A12007F3384 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15D92CCE0A12007F3384 /* AppRouter.swift */; };
+		1A0B15DC2CCE0A28007F3384 /* RouterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15DB2CCE0A28007F3384 /* RouterProtocols.swift */; };
+		1A0B15DE2CCE0C87007F3384 /* MainViewModelProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15DD2CCE0C87007F3384 /* MainViewModelProtocols.swift */; };
+		1A0B15E02CCE0CF5007F3384 /* EntranceViewModelProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15DF2CCE0CF5007F3384 /* EntranceViewModelProtocols.swift */; };
+		1A0B15E22CCE0D27007F3384 /* RegistrationViewModelProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15E12CCE0D27007F3384 /* RegistrationViewModelProtocols.swift */; };
+		1A0B15E42CCE0D40007F3384 /* PasswordViewModelProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15E32CCE0D40007F3384 /* PasswordViewModelProtocols.swift */; };
+		1A0B15E62CCE0DBC007F3384 /* CodeNotArriveViewModelProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15E52CCE0DBC007F3384 /* CodeNotArriveViewModelProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +49,15 @@
 		1A0B15CA2CCD79EF007F3384 /* RegistationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistationViewModel.swift; sourceTree = "<group>"; };
 		1A0B15CC2CCD79FD007F3384 /* EntranceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceViewModel.swift; sourceTree = "<group>"; };
 		1A0B15CE2CCD7A07007F3384 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		1A0B15D52CCE09D4007F3384 /* BuilderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderService.swift; sourceTree = "<group>"; };
+		1A0B15D72CCE09E4007F3384 /* BuilderServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderServiceProtocol.swift; sourceTree = "<group>"; };
+		1A0B15D92CCE0A12007F3384 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		1A0B15DB2CCE0A28007F3384 /* RouterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocols.swift; sourceTree = "<group>"; };
+		1A0B15DD2CCE0C87007F3384 /* MainViewModelProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelProtocols.swift; sourceTree = "<group>"; };
+		1A0B15DF2CCE0CF5007F3384 /* EntranceViewModelProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceViewModelProtocols.swift; sourceTree = "<group>"; };
+		1A0B15E12CCE0D27007F3384 /* RegistrationViewModelProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModelProtocols.swift; sourceTree = "<group>"; };
+		1A0B15E32CCE0D40007F3384 /* PasswordViewModelProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewModelProtocols.swift; sourceTree = "<group>"; };
+		1A0B15E52CCE0DBC007F3384 /* CodeNotArriveViewModelProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeNotArriveViewModelProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +90,7 @@
 		1A0B15A22CCD775B007F3384 /* smsLogin */ = {
 			isa = PBXGroup;
 			children = (
+				1A0B15D12CCE0992007F3384 /* Services */,
 				1A0B15B72CCD77BD007F3384 /* System */,
 				1A0B15B82CCD780F007F3384 /* Screens */,
 			);
@@ -93,11 +112,11 @@
 		1A0B15B82CCD780F007F3384 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				1A0B15B92CCD7833007F3384 /* Main */,
 				1A0B15BD2CCD78A5007F3384 /* CodeNotArrive */,
 				1A0B15BC2CCD7899007F3384 /* Password */,
 				1A0B15BB2CCD786D007F3384 /* Registration */,
 				1A0B15BA2CCD785A007F3384 /* Entrance */,
-				1A0B15B92CCD7833007F3384 /* Main */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -107,6 +126,7 @@
 			children = (
 				1A0B15A72CCD775B007F3384 /* MainViewController.swift */,
 				1A0B15CE2CCD7A07007F3384 /* MainViewModel.swift */,
+				1A0B15DD2CCE0C87007F3384 /* MainViewModelProtocols.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -116,6 +136,7 @@
 			children = (
 				1A0B15C42CCD7971007F3384 /* EntranceViewController.swift */,
 				1A0B15CC2CCD79FD007F3384 /* EntranceViewModel.swift */,
+				1A0B15DF2CCE0CF5007F3384 /* EntranceViewModelProtocols.swift */,
 			);
 			path = Entrance;
 			sourceTree = "<group>";
@@ -125,6 +146,7 @@
 			children = (
 				1A0B15C22CCD795E007F3384 /* RegistationViewController.swift */,
 				1A0B15CA2CCD79EF007F3384 /* RegistationViewModel.swift */,
+				1A0B15E12CCE0D27007F3384 /* RegistrationViewModelProtocols.swift */,
 			);
 			path = Registration;
 			sourceTree = "<group>";
@@ -134,6 +156,7 @@
 			children = (
 				1A0B15C02CCD7948007F3384 /* PasswordViewController.swift */,
 				1A0B15C82CCD79D4007F3384 /* PasswordViewModel.swift */,
+				1A0B15E32CCE0D40007F3384 /* PasswordViewModelProtocols.swift */,
 			);
 			path = Password;
 			sourceTree = "<group>";
@@ -143,8 +166,44 @@
 			children = (
 				1A0B15BE2CCD791E007F3384 /* CodeNotArriveViewController.swift */,
 				1A0B15C62CCD79CC007F3384 /* CodeNotArriveViewModel.swift */,
+				1A0B15E52CCE0DBC007F3384 /* CodeNotArriveViewModelProtocols.swift */,
 			);
 			path = CodeNotArrive;
+			sourceTree = "<group>";
+		};
+		1A0B15D12CCE0992007F3384 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B15D22CCE099B007F3384 /* Navigation */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1A0B15D22CCE099B007F3384 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B15D42CCE09BE007F3384 /* Builder */,
+				1A0B15D32CCE09AD007F3384 /* Router */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		1A0B15D32CCE09AD007F3384 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B15D92CCE0A12007F3384 /* AppRouter.swift */,
+				1A0B15DB2CCE0A28007F3384 /* RouterProtocols.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1A0B15D42CCE09BE007F3384 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B15D52CCE09D4007F3384 /* BuilderService.swift */,
+				1A0B15D72CCE09E4007F3384 /* BuilderServiceProtocol.swift */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,15 +276,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0B15E62CCE0DBC007F3384 /* CodeNotArriveViewModelProtocols.swift in Sources */,
+				1A0B15D62CCE09D4007F3384 /* BuilderService.swift in Sources */,
 				1A0B15C72CCD79CC007F3384 /* CodeNotArriveViewModel.swift in Sources */,
+				1A0B15E02CCE0CF5007F3384 /* EntranceViewModelProtocols.swift in Sources */,
 				1A0B15C32CCD795E007F3384 /* RegistationViewController.swift in Sources */,
 				1A0B15BF2CCD791E007F3384 /* CodeNotArriveViewController.swift in Sources */,
 				1A0B15CD2CCD79FD007F3384 /* EntranceViewModel.swift in Sources */,
 				1A0B15C92CCD79D4007F3384 /* PasswordViewModel.swift in Sources */,
+				1A0B15DC2CCE0A28007F3384 /* RouterProtocols.swift in Sources */,
 				1A0B15C12CCD7948007F3384 /* PasswordViewController.swift in Sources */,
+				1A0B15E22CCE0D27007F3384 /* RegistrationViewModelProtocols.swift in Sources */,
+				1A0B15D82CCE09E4007F3384 /* BuilderServiceProtocol.swift in Sources */,
+				1A0B15E42CCE0D40007F3384 /* PasswordViewModelProtocols.swift in Sources */,
+				1A0B15DA2CCE0A12007F3384 /* AppRouter.swift in Sources */,
 				1A0B15A82CCD775B007F3384 /* MainViewController.swift in Sources */,
 				1A0B15CB2CCD79EF007F3384 /* RegistationViewModel.swift in Sources */,
 				1A0B15C52CCD7971007F3384 /* EntranceViewController.swift in Sources */,
+				1A0B15DE2CCE0C87007F3384 /* MainViewModelProtocols.swift in Sources */,
 				1A0B15A42CCD775B007F3384 /* AppDelegate.swift in Sources */,
 				1A0B15A62CCD775B007F3384 /* SceneDelegate.swift in Sources */,
 				1A0B15CF2CCD7A07007F3384 /* MainViewModel.swift in Sources */,

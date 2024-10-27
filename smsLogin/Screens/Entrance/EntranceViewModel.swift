@@ -7,6 +7,12 @@
 
 import Foundation
 
-final class EntranceViewModel {
+final class EntranceViewModel: EntranceViewModelProtocol {
+  
+  var router: RouterProtocol?
+  
+  init(router: any RouterProtocol) {
+    self.router = router
+  }
   
 }

@@ -7,6 +7,12 @@
 
 import Foundation
 
-final class RegistationViewModel {
+final class RegistationViewModel: RegistrationViewModelProtocol {
+  
+  var router: RouterProtocol?
+  
+  init(router: RouterProtocol){
+    self.router = router
+  }
   
 }

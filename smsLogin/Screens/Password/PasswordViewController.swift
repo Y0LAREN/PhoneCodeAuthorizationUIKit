@@ -9,6 +9,8 @@ import UIKit
 
 class PasswordViewController: UIViewController {
 
+  var viewModel: PasswordViewModel?
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 

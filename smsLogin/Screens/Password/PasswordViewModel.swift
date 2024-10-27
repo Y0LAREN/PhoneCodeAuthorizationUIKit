@@ -7,6 +7,12 @@
 
 import Foundation
 
-final class PasswordViewModel {
+final class PasswordViewModel: PasswordViewModelProtocol{
+  
+  var router: RouterProtocol?
+  
+  init(router: any RouterProtocol) {
+    self.router = router
+  }
   
 }

@@ -9,4 +9,10 @@ import Foundation
 
 final class MainViewModel {
   
+  var router: RouterProtocol?
+  
+  init(router: any RouterProtocol) {
+    self.router = router
+  }
+  
 }

@@ -9,6 +9,8 @@ import UIKit
 
 class EntranceViewController: UIViewController {
 
+  var viewModel: EntranceViewModel?
+  
     override func viewDidLoad() {
         super.viewDidLoad()
       
