@@ -30,6 +30,8 @@
 		1A0B15E22CCE0D27007F3384 /* RegistrationViewModelProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15E12CCE0D27007F3384 /* RegistrationViewModelProtocols.swift */; };
 		1A0B15E42CCE0D40007F3384 /* PasswordViewModelProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15E32CCE0D40007F3384 /* PasswordViewModelProtocols.swift */; };
 		1A0B15E62CCE0DBC007F3384 /* CodeNotArriveViewModelProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15E52CCE0DBC007F3384 /* CodeNotArriveViewModelProtocols.swift */; };
+		1A0B15EA2CCE29F2007F3384 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15E92CCE29F2007F3384 /* Resources.swift */; };
+		1A0B15EC2CCE2F3F007F3384 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15EB2CCE2F3F007F3384 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		1A0B15E12CCE0D27007F3384 /* RegistrationViewModelProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModelProtocols.swift; sourceTree = "<group>"; };
 		1A0B15E32CCE0D40007F3384 /* PasswordViewModelProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewModelProtocols.swift; sourceTree = "<group>"; };
 		1A0B15E52CCE0DBC007F3384 /* CodeNotArriveViewModelProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeNotArriveViewModelProtocols.swift; sourceTree = "<group>"; };
+		1A0B15E92CCE29F2007F3384 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		1A0B15EB2CCE2F3F007F3384 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		1A0B15A22CCD775B007F3384 /* smsLogin */ = {
 			isa = PBXGroup;
 			children = (
+				1A0B15E82CCE29E5007F3384 /* Resources */,
+				1A0B15E72CCE29DF007F3384 /* Extensions */,
 				1A0B15D12CCE0992007F3384 /* Services */,
 				1A0B15B72CCD77BD007F3384 /* System */,
 				1A0B15B82CCD780F007F3384 /* Screens */,
@@ -206,6 +212,22 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		1A0B15E72CCE29DF007F3384 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B15EB2CCE2F3F007F3384 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1A0B15E82CCE29E5007F3384 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B15E92CCE29F2007F3384 /* Resources.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -276,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0B15EC2CCE2F3F007F3384 /* Extensions.swift in Sources */,
 				1A0B15E62CCE0DBC007F3384 /* CodeNotArriveViewModelProtocols.swift in Sources */,
 				1A0B15D62CCE09D4007F3384 /* BuilderService.swift in Sources */,
 				1A0B15C72CCD79CC007F3384 /* CodeNotArriveViewModel.swift in Sources */,
@@ -295,6 +318,7 @@
 				1A0B15C52CCD7971007F3384 /* EntranceViewController.swift in Sources */,
 				1A0B15DE2CCE0C87007F3384 /* MainViewModelProtocols.swift in Sources */,
 				1A0B15A42CCD775B007F3384 /* AppDelegate.swift in Sources */,
+				1A0B15EA2CCE29F2007F3384 /* Resources.swift in Sources */,
 				1A0B15A62CCD775B007F3384 /* SceneDelegate.swift in Sources */,
 				1A0B15CF2CCD7A07007F3384 /* MainViewModel.swift in Sources */,
 			);
