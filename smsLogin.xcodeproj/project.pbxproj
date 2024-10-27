@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		1A0B15A42CCD775B007F3384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15A32CCD775B007F3384 /* AppDelegate.swift */; };
 		1A0B15A62CCD775B007F3384 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15A52CCD775B007F3384 /* SceneDelegate.swift */; };
-		1A0B15A82CCD775B007F3384 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15A72CCD775B007F3384 /* ViewController.swift */; };
-		1A0B15AB2CCD775B007F3384 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B15AA2CCD775B007F3384 /* Base */; };
+		1A0B15A82CCD775B007F3384 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15A72CCD775B007F3384 /* MainViewController.swift */; };
 		1A0B15AD2CCD775C007F3384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B15AC2CCD775C007F3384 /* Assets.xcassets */; };
 		1A0B15B02CCD775C007F3384 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B15AF2CCD775C007F3384 /* Base */; };
+		1A0B15BF2CCD791E007F3384 /* CodeNotArriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15BE2CCD791E007F3384 /* CodeNotArriveViewController.swift */; };
+		1A0B15C12CCD7948007F3384 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15C02CCD7948007F3384 /* PasswordViewController.swift */; };
+		1A0B15C32CCD795E007F3384 /* RegistationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15C22CCD795E007F3384 /* RegistationViewController.swift */; };
+		1A0B15C52CCD7971007F3384 /* EntranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15C42CCD7971007F3384 /* EntranceViewController.swift */; };
+		1A0B15C72CCD79CC007F3384 /* CodeNotArriveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15C62CCD79CC007F3384 /* CodeNotArriveViewModel.swift */; };
+		1A0B15C92CCD79D4007F3384 /* PasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15C82CCD79D4007F3384 /* PasswordViewModel.swift */; };
+		1A0B15CB2CCD79EF007F3384 /* RegistationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15CA2CCD79EF007F3384 /* RegistationViewModel.swift */; };
+		1A0B15CD2CCD79FD007F3384 /* EntranceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15CC2CCD79FD007F3384 /* EntranceViewModel.swift */; };
+		1A0B15CF2CCD7A07007F3384 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15CE2CCD7A07007F3384 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A0B15A02CCD775B007F3384 /* smsLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smsLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0B15A32CCD775B007F3384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A0B15A52CCD775B007F3384 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A0B15A72CCD775B007F3384 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1A0B15AA2CCD775B007F3384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A0B15A72CCD775B007F3384 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1A0B15AC2CCD775C007F3384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A0B15AF2CCD775C007F3384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A0B15B12CCD775C007F3384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0B15BE2CCD791E007F3384 /* CodeNotArriveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeNotArriveViewController.swift; sourceTree = "<group>"; };
+		1A0B15C02CCD7948007F3384 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		1A0B15C22CCD795E007F3384 /* RegistationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistationViewController.swift; sourceTree = "<group>"; };
+		1A0B15C42CCD7971007F3384 /* EntranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceViewController.swift; sourceTree = "<group>"; };
+		1A0B15C62CCD79CC007F3384 /* CodeNotArriveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeNotArriveViewModel.swift; sourceTree = "<group>"; };
+		1A0B15C82CCD79D4007F3384 /* PasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewModel.swift; sourceTree = "<group>"; };
+		1A0B15CA2CCD79EF007F3384 /* RegistationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistationViewModel.swift; sourceTree = "<group>"; };
+		1A0B15CC2CCD79FD007F3384 /* EntranceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceViewModel.swift; sourceTree = "<group>"; };
+		1A0B15CE2CCD7A07007F3384 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,79 @@
 		1A0B15A22CCD775B007F3384 /* smsLogin */ = {
 			isa = PBXGroup;
 			children = (
+				1A0B15B72CCD77BD007F3384 /* System */,
+				1A0B15B82CCD780F007F3384 /* Screens */,
+			);
+			path = smsLogin;
+			sourceTree = "<group>";
+		};
+		1A0B15B72CCD77BD007F3384 /* System */ = {
+			isa = PBXGroup;
+			children = (
 				1A0B15A32CCD775B007F3384 /* AppDelegate.swift */,
 				1A0B15A52CCD775B007F3384 /* SceneDelegate.swift */,
-				1A0B15A72CCD775B007F3384 /* ViewController.swift */,
-				1A0B15A92CCD775B007F3384 /* Main.storyboard */,
 				1A0B15AC2CCD775C007F3384 /* Assets.xcassets */,
 				1A0B15AE2CCD775C007F3384 /* LaunchScreen.storyboard */,
 				1A0B15B12CCD775C007F3384 /* Info.plist */,
 			);
-			path = smsLogin;
+			path = System;
+			sourceTree = "<group>";
+		};
+		1A0B15B82CCD780F007F3384 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B15BD2CCD78A5007F3384 /* CodeNotArrive */,
+				1A0B15BC2CCD7899007F3384 /* Password */,
+				1A0B15BB2CCD786D007F3384 /* Registration */,
+				1A0B15BA2CCD785A007F3384 /* Entrance */,
+				1A0B15B92CCD7833007F3384 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1A0B15B92CCD7833007F3384 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B15A72CCD775B007F3384 /* MainViewController.swift */,
+				1A0B15CE2CCD7A07007F3384 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1A0B15BA2CCD785A007F3384 /* Entrance */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B15C42CCD7971007F3384 /* EntranceViewController.swift */,
+				1A0B15CC2CCD79FD007F3384 /* EntranceViewModel.swift */,
+			);
+			path = Entrance;
+			sourceTree = "<group>";
+		};
+		1A0B15BB2CCD786D007F3384 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B15C22CCD795E007F3384 /* RegistationViewController.swift */,
+				1A0B15CA2CCD79EF007F3384 /* RegistationViewModel.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		1A0B15BC2CCD7899007F3384 /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B15C02CCD7948007F3384 /* PasswordViewController.swift */,
+				1A0B15C82CCD79D4007F3384 /* PasswordViewModel.swift */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+		1A0B15BD2CCD78A5007F3384 /* CodeNotArrive */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B15BE2CCD791E007F3384 /* CodeNotArriveViewController.swift */,
+				1A0B15C62CCD79CC007F3384 /* CodeNotArriveViewModel.swift */,
+			);
+			path = CodeNotArrive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +207,6 @@
 			files = (
 				1A0B15AD2CCD775C007F3384 /* Assets.xcassets in Resources */,
 				1A0B15B02CCD775C007F3384 /* Base in Resources */,
-				1A0B15AB2CCD775B007F3384 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +217,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A0B15A82CCD775B007F3384 /* ViewController.swift in Sources */,
+				1A0B15C72CCD79CC007F3384 /* CodeNotArriveViewModel.swift in Sources */,
+				1A0B15C32CCD795E007F3384 /* RegistationViewController.swift in Sources */,
+				1A0B15BF2CCD791E007F3384 /* CodeNotArriveViewController.swift in Sources */,
+				1A0B15CD2CCD79FD007F3384 /* EntranceViewModel.swift in Sources */,
+				1A0B15C92CCD79D4007F3384 /* PasswordViewModel.swift in Sources */,
+				1A0B15C12CCD7948007F3384 /* PasswordViewController.swift in Sources */,
+				1A0B15A82CCD775B007F3384 /* MainViewController.swift in Sources */,
+				1A0B15CB2CCD79EF007F3384 /* RegistationViewModel.swift in Sources */,
+				1A0B15C52CCD7971007F3384 /* EntranceViewController.swift in Sources */,
 				1A0B15A42CCD775B007F3384 /* AppDelegate.swift in Sources */,
 				1A0B15A62CCD775B007F3384 /* SceneDelegate.swift in Sources */,
+				1A0B15CF2CCD7A07007F3384 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1A0B15A92CCD775B007F3384 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A0B15AA2CCD775B007F3384 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A0B15AE2CCD775C007F3384 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +374,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2543KZ63PL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = smsLogin/Info.plist;
+				INFOPLIST_FILE = smsLogin/System/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +402,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2543KZ63PL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = smsLogin/Info.plist;
+				INFOPLIST_FILE = smsLogin/System/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
