@@ -32,6 +32,21 @@
 		1A0B15E62CCE0DBC007F3384 /* CodeNotArriveViewModelProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15E52CCE0DBC007F3384 /* CodeNotArriveViewModelProtocols.swift */; };
 		1A0B15EA2CCE29F2007F3384 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15E92CCE29F2007F3384 /* Resources.swift */; };
 		1A0B15EC2CCE2F3F007F3384 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B15EB2CCE2F3F007F3384 /* Extensions.swift */; };
+		1A0B16272CCE7F13007F3384 /* SFUI-heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B161F2CCE7F12007F3384 /* SFUI-heavy.otf */; };
+		1A0B16282CCE7F13007F3384 /* SFUI-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B16202CCE7F12007F3384 /* SFUI-medium.otf */; };
+		1A0B16292CCE7F13007F3384 /* SFUI-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B16212CCE7F12007F3384 /* SFUI-thin.otf */; };
+		1A0B162A2CCE7F13007F3384 /* SFUI-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B16222CCE7F12007F3384 /* SFUI-semibold.otf */; };
+		1A0B162B2CCE7F13007F3384 /* SFUI-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B16232CCE7F12007F3384 /* SFUI-light.otf */; };
+		1A0B162C2CCE7F13007F3384 /* SFUI-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B16242CCE7F12007F3384 /* SFUI-bold.otf */; };
+		1A0B162D2CCE7F13007F3384 /* SFUI-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B16252CCE7F13007F3384 /* SFUI-black.otf */; };
+		1A0B162E2CCE7F13007F3384 /* SFUI-ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B16262CCE7F13007F3384 /* SFUI-ultralight.otf */; };
+		1A0B16312CCE940D007F3384 /* Urbanist-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B162F2CCE940D007F3384 /* Urbanist-Italic-VariableFont_wght.ttf */; };
+		1A0B16322CCE940D007F3384 /* Urbanist-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B16302CCE940D007F3384 /* Urbanist-VariableFont_wght.ttf */; };
+		1A0B16392CCF6EF8007F3384 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B16382CCF6EF8007F3384 /* MainCoordinator.swift */; };
+		1A0B163B2CCF6F07007F3384 /* EntranceCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B163A2CCF6F07007F3384 /* EntranceCoordinator.swift */; };
+		1A0B163D2CCF6F13007F3384 /* RegistrationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B163C2CCF6F13007F3384 /* RegistrationCoordinator.swift */; };
+		1A0B163F2CCF6F20007F3384 /* PasswordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B163E2CCF6F20007F3384 /* PasswordCoordinator.swift */; };
+		1A0B16412CCF6F2D007F3384 /* CodeNotArriveCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B16402CCF6F2D007F3384 /* CodeNotArriveCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +77,21 @@
 		1A0B15E52CCE0DBC007F3384 /* CodeNotArriveViewModelProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeNotArriveViewModelProtocols.swift; sourceTree = "<group>"; };
 		1A0B15E92CCE29F2007F3384 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		1A0B15EB2CCE2F3F007F3384 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1A0B161F2CCE7F12007F3384 /* SFUI-heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUI-heavy.otf"; sourceTree = "<group>"; };
+		1A0B16202CCE7F12007F3384 /* SFUI-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUI-medium.otf"; sourceTree = "<group>"; };
+		1A0B16212CCE7F12007F3384 /* SFUI-thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUI-thin.otf"; sourceTree = "<group>"; };
+		1A0B16222CCE7F12007F3384 /* SFUI-semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUI-semibold.otf"; sourceTree = "<group>"; };
+		1A0B16232CCE7F12007F3384 /* SFUI-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUI-light.otf"; sourceTree = "<group>"; };
+		1A0B16242CCE7F12007F3384 /* SFUI-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUI-bold.otf"; sourceTree = "<group>"; };
+		1A0B16252CCE7F13007F3384 /* SFUI-black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUI-black.otf"; sourceTree = "<group>"; };
+		1A0B16262CCE7F13007F3384 /* SFUI-ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUI-ultralight.otf"; sourceTree = "<group>"; };
+		1A0B162F2CCE940D007F3384 /* Urbanist-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		1A0B16302CCE940D007F3384 /* Urbanist-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		1A0B16382CCF6EF8007F3384 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		1A0B163A2CCF6F07007F3384 /* EntranceCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceCoordinator.swift; sourceTree = "<group>"; };
+		1A0B163C2CCF6F13007F3384 /* RegistrationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCoordinator.swift; sourceTree = "<group>"; };
+		1A0B163E2CCF6F20007F3384 /* PasswordCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCoordinator.swift; sourceTree = "<group>"; };
+		1A0B16402CCF6F2D007F3384 /* CodeNotArriveCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeNotArriveCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +124,8 @@
 		1A0B15A22CCD775B007F3384 /* smsLogin */ = {
 			isa = PBXGroup;
 			children = (
+				1A0B16492CCF81E8007F3384 /* CustomElements */,
+				1A0B15ED2CCE767B007F3384 /* Font */,
 				1A0B15E82CCE29E5007F3384 /* Resources */,
 				1A0B15E72CCE29DF007F3384 /* Extensions */,
 				1A0B15D12CCE0992007F3384 /* Services */,
@@ -119,10 +151,10 @@
 			isa = PBXGroup;
 			children = (
 				1A0B15B92CCD7833007F3384 /* Main */,
-				1A0B15BD2CCD78A5007F3384 /* CodeNotArrive */,
-				1A0B15BC2CCD7899007F3384 /* Password */,
-				1A0B15BB2CCD786D007F3384 /* Registration */,
 				1A0B15BA2CCD785A007F3384 /* Entrance */,
+				1A0B15BB2CCD786D007F3384 /* Registration */,
+				1A0B15BC2CCD7899007F3384 /* Password */,
+				1A0B15BD2CCD78A5007F3384 /* CodeNotArrive */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -133,6 +165,7 @@
 				1A0B15A72CCD775B007F3384 /* MainViewController.swift */,
 				1A0B15CE2CCD7A07007F3384 /* MainViewModel.swift */,
 				1A0B15DD2CCE0C87007F3384 /* MainViewModelProtocols.swift */,
+				1A0B16382CCF6EF8007F3384 /* MainCoordinator.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -143,6 +176,7 @@
 				1A0B15C42CCD7971007F3384 /* EntranceViewController.swift */,
 				1A0B15CC2CCD79FD007F3384 /* EntranceViewModel.swift */,
 				1A0B15DF2CCE0CF5007F3384 /* EntranceViewModelProtocols.swift */,
+				1A0B163A2CCF6F07007F3384 /* EntranceCoordinator.swift */,
 			);
 			path = Entrance;
 			sourceTree = "<group>";
@@ -153,6 +187,7 @@
 				1A0B15C22CCD795E007F3384 /* RegistationViewController.swift */,
 				1A0B15CA2CCD79EF007F3384 /* RegistationViewModel.swift */,
 				1A0B15E12CCE0D27007F3384 /* RegistrationViewModelProtocols.swift */,
+				1A0B163C2CCF6F13007F3384 /* RegistrationCoordinator.swift */,
 			);
 			path = Registration;
 			sourceTree = "<group>";
@@ -163,6 +198,7 @@
 				1A0B15C02CCD7948007F3384 /* PasswordViewController.swift */,
 				1A0B15C82CCD79D4007F3384 /* PasswordViewModel.swift */,
 				1A0B15E32CCE0D40007F3384 /* PasswordViewModelProtocols.swift */,
+				1A0B163E2CCF6F20007F3384 /* PasswordCoordinator.swift */,
 			);
 			path = Password;
 			sourceTree = "<group>";
@@ -173,6 +209,7 @@
 				1A0B15BE2CCD791E007F3384 /* CodeNotArriveViewController.swift */,
 				1A0B15C62CCD79CC007F3384 /* CodeNotArriveViewModel.swift */,
 				1A0B15E52CCE0DBC007F3384 /* CodeNotArriveViewModelProtocols.swift */,
+				1A0B16402CCF6F2D007F3384 /* CodeNotArriveCoordinator.swift */,
 			);
 			path = CodeNotArrive;
 			sourceTree = "<group>";
@@ -180,6 +217,7 @@
 		1A0B15D12CCE0992007F3384 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				1A0B15D42CCE09BE007F3384 /* Builder */,
 				1A0B15D22CCE099B007F3384 /* Navigation */,
 			);
 			path = Services;
@@ -188,7 +226,6 @@
 		1A0B15D22CCE099B007F3384 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				1A0B15D42CCE09BE007F3384 /* Builder */,
 				1A0B15D32CCE09AD007F3384 /* Router */,
 			);
 			path = Navigation;
@@ -226,6 +263,30 @@
 				1A0B15E92CCE29F2007F3384 /* Resources.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		1A0B15ED2CCE767B007F3384 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B162F2CCE940D007F3384 /* Urbanist-Italic-VariableFont_wght.ttf */,
+				1A0B16302CCE940D007F3384 /* Urbanist-VariableFont_wght.ttf */,
+				1A0B16252CCE7F13007F3384 /* SFUI-black.otf */,
+				1A0B16242CCE7F12007F3384 /* SFUI-bold.otf */,
+				1A0B161F2CCE7F12007F3384 /* SFUI-heavy.otf */,
+				1A0B16232CCE7F12007F3384 /* SFUI-light.otf */,
+				1A0B16202CCE7F12007F3384 /* SFUI-medium.otf */,
+				1A0B16222CCE7F12007F3384 /* SFUI-semibold.otf */,
+				1A0B16212CCE7F12007F3384 /* SFUI-thin.otf */,
+				1A0B16262CCE7F13007F3384 /* SFUI-ultralight.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1A0B16492CCF81E8007F3384 /* CustomElements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomElements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,8 +347,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0B162B2CCE7F13007F3384 /* SFUI-light.otf in Resources */,
+				1A0B162C2CCE7F13007F3384 /* SFUI-bold.otf in Resources */,
+				1A0B16272CCE7F13007F3384 /* SFUI-heavy.otf in Resources */,
 				1A0B15AD2CCD775C007F3384 /* Assets.xcassets in Resources */,
+				1A0B16312CCE940D007F3384 /* Urbanist-Italic-VariableFont_wght.ttf in Resources */,
+				1A0B16322CCE940D007F3384 /* Urbanist-VariableFont_wght.ttf in Resources */,
+				1A0B16292CCE7F13007F3384 /* SFUI-thin.otf in Resources */,
+				1A0B162A2CCE7F13007F3384 /* SFUI-semibold.otf in Resources */,
+				1A0B162E2CCE7F13007F3384 /* SFUI-ultralight.otf in Resources */,
+				1A0B162D2CCE7F13007F3384 /* SFUI-black.otf in Resources */,
 				1A0B15B02CCD775C007F3384 /* Base in Resources */,
+				1A0B16282CCE7F13007F3384 /* SFUI-medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +369,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0B163B2CCF6F07007F3384 /* EntranceCoordinator.swift in Sources */,
 				1A0B15EC2CCE2F3F007F3384 /* Extensions.swift in Sources */,
+				1A0B163D2CCF6F13007F3384 /* RegistrationCoordinator.swift in Sources */,
 				1A0B15E62CCE0DBC007F3384 /* CodeNotArriveViewModelProtocols.swift in Sources */,
 				1A0B15D62CCE09D4007F3384 /* BuilderService.swift in Sources */,
 				1A0B15C72CCD79CC007F3384 /* CodeNotArriveViewModel.swift in Sources */,
@@ -306,13 +379,16 @@
 				1A0B15C32CCD795E007F3384 /* RegistationViewController.swift in Sources */,
 				1A0B15BF2CCD791E007F3384 /* CodeNotArriveViewController.swift in Sources */,
 				1A0B15CD2CCD79FD007F3384 /* EntranceViewModel.swift in Sources */,
+				1A0B16412CCF6F2D007F3384 /* CodeNotArriveCoordinator.swift in Sources */,
 				1A0B15C92CCD79D4007F3384 /* PasswordViewModel.swift in Sources */,
 				1A0B15DC2CCE0A28007F3384 /* RouterProtocols.swift in Sources */,
 				1A0B15C12CCD7948007F3384 /* PasswordViewController.swift in Sources */,
 				1A0B15E22CCE0D27007F3384 /* RegistrationViewModelProtocols.swift in Sources */,
+				1A0B16392CCF6EF8007F3384 /* MainCoordinator.swift in Sources */,
 				1A0B15D82CCE09E4007F3384 /* BuilderServiceProtocol.swift in Sources */,
 				1A0B15E42CCE0D40007F3384 /* PasswordViewModelProtocols.swift in Sources */,
 				1A0B15DA2CCE0A12007F3384 /* AppRouter.swift in Sources */,
+				1A0B163F2CCF6F20007F3384 /* PasswordCoordinator.swift in Sources */,
 				1A0B15A82CCD775B007F3384 /* MainViewController.swift in Sources */,
 				1A0B15CB2CCD79EF007F3384 /* RegistationViewModel.swift in Sources */,
 				1A0B15C52CCD7971007F3384 /* EntranceViewController.swift in Sources */,
@@ -469,7 +545,6 @@
 				INFOPLIST_FILE = smsLogin/System/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -497,7 +572,6 @@
 				INFOPLIST_FILE = smsLogin/System/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

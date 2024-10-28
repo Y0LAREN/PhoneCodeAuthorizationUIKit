@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class EntranceViewModel: EntranceViewModelProtocol {
+final class EntranceViewModel: EntranceViewModelProtocol{
   
   var router: RouterProtocol?
   

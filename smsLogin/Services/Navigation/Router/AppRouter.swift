@@ -17,6 +17,10 @@ final class AppRouter: RouterProtocol {
     self.builder = builder
   }
   
+  func start() {
+    showMainViewController()
+  }
+  
   func showMainViewController() {
     if let navigationController = navigationController {
       guard let detailViewController = builder?.createMainScreen(router: self) else { return }
@@ -40,6 +44,7 @@ final class AppRouter: RouterProtocol {
   
   func showRegistrationViewController() {
     if let navigationController = navigationController {
+      navigationController.title = R.Texts.registrationNavigationBarHeaderText
       guard let detailViewController = builder?.createRegistrationScreen(router: self) else { return }
       navigationController.pushViewController(detailViewController, animated: true)
     }
@@ -47,6 +52,7 @@ final class AppRouter: RouterProtocol {
   
   func showEntranceViewController() {
     if let navigationController = navigationController {
+      navigationController.title = R.Texts.entranceNavigationBarHeaderText
       guard let detailViewController = builder?.createEntranceScreen(router: self) else { return }
       navigationController.pushViewController(detailViewController, animated: true)
     }

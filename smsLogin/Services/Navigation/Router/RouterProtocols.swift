@@ -8,6 +8,7 @@ protocol Router {
 
 protocol RouterProtocol: Router {
   
+  func start()
   func showMainViewController()
   func showCodeNotArriveViewController()
   func showPasswordViewController()
