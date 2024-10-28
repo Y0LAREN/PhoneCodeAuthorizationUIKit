@@ -1,5 +1,6 @@
 import Foundation
 import UIKit
+import Combine
 
 extension UIColor {
    convenience init(red: Int, green: Int, blue: Int) {
@@ -17,4 +18,16 @@ extension UIColor {
            blue: rgb & 0xFF
        )
    }
+}
+
+extension UITextField {
+  
+  var textPublisher: AnyPublisher<String, Never> {
+    NotificationCenter.default
+      .publisher(for: UITextField.textDidChangeNotification, object: self)
+      .compactMap { $0.object as? UITextField }
+      .compactMap { $0.text }
+      .eraseToAnyPublisher()
+  }
+  
 }

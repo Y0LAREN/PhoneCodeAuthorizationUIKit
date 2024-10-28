@@ -9,9 +9,10 @@ import Foundation
 
 final class PasswordViewModel: PasswordViewModelProtocol{
   
-  
+  //MARK: - properties
   var router: RouterProtocol?
   
+  //MARK: - init
   init(router: any RouterProtocol) {
     self.router = router
   }

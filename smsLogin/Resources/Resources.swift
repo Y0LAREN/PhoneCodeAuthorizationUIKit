@@ -8,6 +8,12 @@ enum R{
     static let buttonWidth: CGFloat = 319
     static let buttonHeight: CGFloat = 56
     
+    static let buttonForCountryCodeWidht: CGFloat = 70
+    static let buttonForCountryCodeHeight: CGFloat = 50
+    
+    static let textFieldForPhoneNumberWidht: CGFloat = 231
+    static let textFieldForPhoneNumberHeight: CGFloat = 50
+    
   }
   
   enum Fonts {
@@ -67,6 +73,7 @@ enum R{
     
     static let entranceHeadingText = "Верификация"
     static let entrancePhoneNumber = "Номер телефона"
+    static let entranceInputCodeAgain = "Запросить код можно"
     static let passwordHeadingText = "Создайте код приложения"
     static let codeNotArriveHeadingText = "Не пришел код?"
     

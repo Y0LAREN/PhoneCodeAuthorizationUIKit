@@ -14,5 +14,6 @@ protocol RouterProtocol: Router {
   func showPasswordViewController()
   func showRegistrationViewController()
   func showEntranceViewController()
+  func showRegistrationViewController(navigationnBarTitle: String)
   
 }

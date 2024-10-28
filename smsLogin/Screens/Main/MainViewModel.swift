@@ -9,14 +9,15 @@ import Foundation
 
 final class MainViewModel: MainViewModelProtocol{
   
-//  var mainCoordinator: MainCoordinator?
+  //MARK: - properties
   var router: RouterProtocol?
   
+  //MARK: - init
   init(router: any RouterProtocol) {
     self.router = router
   }
   
-  
+  //MARK: -  methods
   func moveToEntanceScreen(){
     router?.showEntranceViewController()
   }

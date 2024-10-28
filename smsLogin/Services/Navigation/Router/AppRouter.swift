@@ -10,13 +10,17 @@ import UIKit
 
 final class AppRouter: RouterProtocol {
   
+  //MARK: - properties
   var navigationController: UINavigationController?
   var builder: Builder?
+  
+  //MARK: - init
   init (navigationController: UINavigationController, builder: Builder) {
     self.navigationController = navigationController
     self.builder = builder
   }
   
+  //MARK: - Methods
   func start() {
     showMainViewController()
   }
@@ -45,7 +49,15 @@ final class AppRouter: RouterProtocol {
   func showRegistrationViewController() {
     if let navigationController = navigationController {
       navigationController.title = R.Texts.registrationNavigationBarHeaderText
-      guard let detailViewController = builder?.createRegistrationScreen(router: self) else { return }
+      guard let detailViewController = builder?.createEntranceScreen(router: self) else { return }
+      navigationController.pushViewController(detailViewController, animated: true)
+    }
+  }
+  
+  func showRegistrationViewController(navigationnBarTitle: String) {
+    if let navigationController = navigationController {
+      navigationController.title = navigationnBarTitle
+      guard let detailViewController = builder?.createCodeInputScreen(router: self) else { return }
       navigationController.pushViewController(detailViewController, animated: true)
     }
   }

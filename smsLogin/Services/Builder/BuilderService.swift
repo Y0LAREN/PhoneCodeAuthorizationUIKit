@@ -17,9 +17,9 @@ final class BuilderService: Builder {
     return view
   }
   
-  func createRegistrationScreen(router: any RouterProtocol) -> UIViewController {
-    let view = RegistationViewController()
-    let viewModel = RegistationViewModel(router: router)
+  func createCodeInputScreen(router: any RouterProtocol) -> UIViewController {
+    let view = CodeInputViewController()
+    let viewModel = CodeInputViewModel(router: router)
     view.viewModel = viewModel
     return view
   }

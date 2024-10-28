@@ -9,8 +9,10 @@ import Foundation
 
 final class CodeNotArriveViewModel: CodeNotArriveViewModelProtocol {
   
+  //MARK: - properties
   var router: RouterProtocol?
   
+  //MARK: - init
   init(router: any RouterProtocol) {
     self.router = router
   }

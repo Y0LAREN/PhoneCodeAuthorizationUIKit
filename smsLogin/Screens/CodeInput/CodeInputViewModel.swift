@@ -7,10 +7,11 @@
 
 import Foundation
 
-final class RegistationViewModel: RegistrationViewModelProtocol {
-  
+final class CodeInputViewModel: CodeInputViewModelProtocol {
+  //MARK: - properties
   var router: RouterProtocol?
   
+  //MARK: - init
   init(router: RouterProtocol){
     self.router = router
   }

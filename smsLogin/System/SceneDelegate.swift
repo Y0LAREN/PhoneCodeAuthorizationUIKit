@@ -15,8 +15,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
     
     let navController = UINavigationController()
-//    var appCoordinator: AppCoordinator = AppCoordinator(navigationController: navController)
-//    appCoordinator.start()
     guard let scene = (scene as? UIWindowScene) else { return }
     window = UIWindow(windowScene: scene)
     
@@ -26,12 +24,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
       builder: builderService)
     router.start()
     
-    
     window?.rootViewController = navController
     window?.makeKeyAndVisible()
     
   }
-
-
 }
 

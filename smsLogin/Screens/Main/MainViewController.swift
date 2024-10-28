@@ -10,6 +10,7 @@ import Foundation
 
 class MainViewController: UIViewController {
 
+  //MARK: - properties
   var viewModel: MainViewModel?
   private let gradientLayer = CAGradientLayer()
   
@@ -21,13 +22,12 @@ class MainViewController: UIViewController {
     return logoImage
   }()
   
-  private lazy var buttonForEnter: UIButton = {
-    let buttonForEnter = UIButton()
+  private lazy var buttonForEnter: CustomGradientButton = {
+    let buttonForEnter = CustomGradientButton()
     
     buttonForEnter.setTitle(R.Texts.mainButtonText, for: .normal)
     buttonForEnter.titleLabel?.font = R.Fonts.urbanistRomanLight(with: 16)
     buttonForEnter.layer.cornerRadius = 31
-    buttonForEnter.layer.addSublayer(gradientLayer)
     buttonForEnter.titleLabel?.textAlignment = .center
     buttonForEnter.titleLabel?.numberOfLines = 0
     buttonForEnter.addTarget(self, action: #selector(workButtonForEnter), for: .touchUpInside)
@@ -82,28 +82,24 @@ class MainViewController: UIViewController {
     return buttonForRegister
   }()
   
-  
+  //MARK: - override methods
   override func viewDidLoad() {
     super.viewDidLoad()
-    
-    addGradientToButton(button: buttonForEnter)
     setupViewsAndConstraints()
-    
   }
   
+  //MARK: -  objective methods
   @objc
   private func workButtonForEnter(){
     viewModel?.moveToEntanceScreen()
-    print("1")
   }
   
   @objc
   private func workButtonForRegistration(){
     viewModel?.moveToRegistrationScreen()
-    print("2")
-    
   }
   
+  //MARK: - private methods
   private func setLogoImageConstraints(){
     logoImage.translatesAutoresizingMaskIntoConstraints = false
     
@@ -185,24 +181,6 @@ class MainViewController: UIViewController {
     setLabelForSmallTitle()
     setLabelForRegistrationTitle()
     setButtonForRegister()
-  }
-  
-  private func addGradientToButton(button: UIButton) {
-    
-    let gradientLayer = CAGradientLayer()
-    gradientLayer.frame.size = CGSize(width: R.Floats.buttonWidth, height: R.Floats.buttonHeight)
-    gradientLayer.colors = [
-      UIColor(rgb: 0x9358F7).cgColor,
-      UIColor(rgb: 0x7B78F2).cgColor,
-      UIColor(rgb: 0x6197EE).cgColor,
-      UIColor(rgb: 0x45B5E9).cgColor,
-      UIColor(rgb: 0x10D7E2).cgColor]
-    
-    gradientLayer.startPoint = CGPoint(x: 0.5, y: 1)
-    gradientLayer.endPoint = CGPoint(x: 0.5, y: 0)
-    
-    button.layer.insertSublayer(gradientLayer, at: 0)
-    gradientLayer.cornerRadius = button.layer.cornerRadius
   }
 }
 

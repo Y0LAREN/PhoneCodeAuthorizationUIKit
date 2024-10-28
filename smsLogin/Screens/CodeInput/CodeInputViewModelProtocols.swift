@@ -1,6 +1,6 @@
 import Foundation
 
-protocol RegistrationViewModelProtocol: AnyObject {
+protocol CodeInputViewModelProtocol: AnyObject {
   
   init(router: RouterProtocol)
   
